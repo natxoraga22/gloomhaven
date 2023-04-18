@@ -1,0 +1,18 @@
+
+@font-face {
+	font-family: Nyala;
+	src: url(../fonts/Nyala.ttf);
+}
+
+:root {
+	--font-pirata-one: 'Pirata One';
+	--font-nyala: Nyala;
+}
+
+body {
+	font-family: var(--font-nyala);
+}
+
+.navbar-brand {
+	font-family: var(--font-pirata-one);
+}

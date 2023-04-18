@@ -1,0 +1,9 @@
+
+.scenario h1 {
+	font-family: var(--font-pirata-one);
+}
+
+.scenario .parameters .title {
+	font-family: var(--font-pirata-one);
+	color: #1d4679;
+}
