@@ -7,6 +7,10 @@
 :root {
 	--font-pirata-one: 'Pirata One';
 	--font-nyala: Nyala;
+
+	--gh-blue: #1d4679;
+	--gh-green: #245714;
+	--gh-red: #7c2524;
 }
 
 body {

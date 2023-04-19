@@ -3,7 +3,29 @@
 	font-family: var(--font-pirata-one);
 }
 
+.scenario .parameters {
+	line-height: 26px;
+}
+
 .scenario .parameters .title {
 	font-family: var(--font-pirata-one);
-	color: #1d4679;
+	color: var(--gh-blue);
+}
+
+.scenario .content {
+	line-height: 18px;
+}
+
+.scenario .content p {
+	margin-bottom: 10px;
+}
+
+.scenario .introduction h2 {
+	font-family: var(--font-pirata-one);
+	color: var(--gh-green);
+}
+
+.scenario .conclusion h2 {
+	font-family: var(--font-pirata-one);
+	color: var(--gh-red);
 }
