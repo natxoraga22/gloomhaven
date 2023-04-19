@@ -8,20 +8,43 @@
 	<!-- SCENARIO -->
 	<!-- -------- -->
 	<div th:fragment="scenario(scenario)" th:object="${scenario}" class="scenario my-4">
-		<h1>[[|# *{id} - *{location}|]]</h1>
+		<!-- Title -->
+		<h1 class="h2">[[|# *{id} - *{location}|]]</h1>
+		<!-- Parameters -->
 		<div class="parameters fs-5">
-			<div><span class="title">Requirements:</span> [[*{Requirements}]]</div>
+			<div><span class="title">Requirements:</span> [[*{requirements}]]</div>
 			<div><span class="title">Goal:</span> [[*{goal}]]</div>
 			<div><span class="title">Links:</span> [[*{links}]]</div>
 		</div>
 		<div class="content my-4">
+			<!-- Introduction -->
 			<div class="introduction mb-4">
 				<h2 class="h4">Introduction:</h2>
 				[(*{introduction})]
 			</div>
-			<div class="conclusion">
+			<!-- Conclusion -->
+			<div class="conclusion mb-4">
 				<h2 class="h4">Conclusion:</h2>
 				[(*{conclusion})]
+			</div>
+			<!-- Rewards -->
+			<div class="rewards">
+				<div th:if="*{not #lists.isEmpty(newLocations)}">
+					<span class="title">New Locations:</span>
+					[[*{#strings.listJoin(newLocations, ', ')}]]
+				</div>
+				<div th:if="*{not #lists.isEmpty(globalAchievements)}">
+					<span class="title">Global Achievements:</span>
+					[[*{#strings.listJoin(globalAchievements, ', ')}]]
+				</div>
+				<div th:if="*{not #lists.isEmpty(partyAchievements)}">
+					<span class="title">Party Achievements:</span>
+					[[*{#strings.listJoin(partyAchievements, ', ')}]]
+				</div>
+				<div th:if="*{not #lists.isEmpty(rewards)}">
+					<span class="title">Rewards:</span>
+					[[*{#strings.listJoin(rewards, ', ')}]]
+				</div>
 			</div>
 		</div>
 	</div>

@@ -1,8 +1,10 @@
 package txraga.gloomhaven.model;
 
-import lombok.ToString;
+import java.util.List;
+
 import lombok.Getter;
 import lombok.Setter;
+import lombok.ToString;
 
 
 @Getter
@@ -18,5 +20,10 @@ public class Scenario {
 
     private String introduction;
     private String conclusion;
+
+    private List<String> newLocations;
+    private List<String> globalAchievements;
+    private List<String> partyAchievements;
+    private List<String> rewards;
 
 }

@@ -29,3 +29,12 @@
 	font-family: var(--font-pirata-one);
 	color: var(--gh-red);
 }
+
+.scenario .rewards {
+	line-height: 22px;
+}
+
+.scenario .rewards .title {
+	font-family: var(--font-pirata-one);
+	color: var(--gh-brown);
+}

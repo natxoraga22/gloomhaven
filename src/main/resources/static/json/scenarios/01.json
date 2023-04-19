@@ -9,8 +9,8 @@
 
 	"conclusion": "<p>With the last bandit dead, you take a moment to catch your breath and steel yourself against the visions of living remains ripping at your flesh. Your target is not among the dead, and you shudder to think what horrors still await you in the catacombs below. (#2)</p>",
 
-	"newLocations": "",
-	"globalAchievements": "",
-	"partyAchievements": "",
-	"rewards": ""
+	"newLocations": ["Barrow Lair (#2)"],
+	"globalAchievements": [],
+	"partyAchievements": ["First Steps"],
+	"rewards": []
 }
