@@ -21,3 +21,8 @@ body {
 .navbar-brand {
 	font-family: var(--font-pirata-one);
 }
+
+.text-blue { color: var(--gh-blue); }
+.text-green { color: var(--gh-green); }
+.text-red { color: var(--gh-red); }
+.text-brown { color: var(--gh-brown); }

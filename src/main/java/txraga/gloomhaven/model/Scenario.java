@@ -12,18 +12,14 @@ import lombok.ToString;
 @ToString
 public class Scenario {
 
-    private String id;
-    private String location;
-    private String requirements;
-    private String goal;
-    private String links;
+	private String id;
+	private String location;
+	private String requirements;
+	private String goal;
+	private String links;
 
-    private String introduction;
-    private String conclusion;
+	private List<Section> sections;
 
-    private List<String> newLocations;
-    private List<String> globalAchievements;
-    private List<String> partyAchievements;
-    private List<String> rewards;
+	private Rewards rewards;
 
 }

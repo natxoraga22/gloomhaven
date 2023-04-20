@@ -1,0 +1,40 @@
+{
+	"id": "2",
+	"location": "Barrow Lair",
+	"requirements": "First Steps (Party) COMPLETE",
+	"goal": "Kill the Bandit Commander and all revealed enemies",
+
+	"sections": [
+		{
+			"title": { "text": "Introduction", "color": "green" },
+			"text": "<p>The stench of death and rotting flesh gets thicker as you kick past the corpses of your foes and head deeper into the underground burial site. Guided by the muffled sounds of conversation, you find your way through the maze of crypts and burst into a small room full of hard-faced bandits, all with bows at the ready.</p><p>They’re clearly guarding something. You must be in the right place.</p>"
+		},
+		{
+			"title": { "text": "Special rules", "color": "blue" },
+			"text": "Add three CURSE cards to each character’s attack modifier deck as a scenario effect."
+		},
+		{
+			"door": 1,
+			"text": "<p>You open the door to a large crypt littered with coffins. At the back stands your quarry. He fits the description, but there is something previously unnoticed in his eyes—a dark otherworldly force.</p><p>“Who are you to think you can interrupt the work of the Gloom?” A dark energy engulfs his hands as he speaks. “I will show you what you are dealing with!”</p>"
+		},
+		{
+			"title": { "text": "Special rules", "color": "blue" },
+			"text": "Doors a, b, c and d are locked and can only be opened by the Bandit Commander."
+		},
+		{
+			"title": { "text": "Boss Special 1", "color": "blue" },
+			"text": "The Bandit Commander immediately jumps into a door hex, regardless of how far away it is, and opens it, revealing the adjacent room. Starting with a, the Bandit Commander jumps to a door in the order of a, b, c, d and then back to a."
+		},
+		{
+			"title": { "text": "Boss Special 2", "color": "blue" },
+			"text": "The Bandit Commander summons one normal Living Bones for two characters or one elite Living Bones for three or four characters."
+		},
+		{
+			"title": { "text": "Conclusion", "color": "red" },
+			"text": "<p>Sifting through the carnage left by the battle, you find a cache at the back of the room containing the scrolls you were hired to collect. You can’t help but rifle through them a bit, but find that the writing upon them is in some unknown archaic language. One thing that does jump out at you, however, is a map of the northern countryside. A bend in the Still River is clearly marked as a point of interest. Contemplating whether you want to find out more about this so-called “Gloom,” you decide that the spot could be a point of interest for you, as well. (#4)</p><p>But that can be forgotten for the moment. You pack up the papers and head back to Gloomhaven to collect your reward.</p><p>Meeting Jekserah once again at the Sleeping Lion, you hand over the papers and are paid the agreed-upon amount.</p><p>“You know,” she whispers to you softly under the bustle of the tavern. “If you’re interested, I may have another job for you. A tribe of Inox in the Dagger Forest has ransacked a couple of my caravans headed to the Capital.</p><p>“I told the militia, but they do nothing,” she spits. “I can point you in the direction of their encampment. If you can make an example of them, I will pay you even more.”</p><p>She places a crude map of the forest on the table and stands up, her jewelry clinking with the movement. “Come find me when it is done.” (#3)</p>"
+		}
+	],
+
+	"newLocations": ["Inox Encampment (#3)", "Crypt of the Damned (#4)"],
+	"rewards": ["10 gold each", "+1 prosperity"]
+}

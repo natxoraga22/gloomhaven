@@ -1,7 +1,12 @@
 
+/* Title */
+
 .scenario h1 {
 	font-family: var(--font-pirata-one);
 }
+
+
+/* Parameters */
 
 .scenario .parameters {
 	line-height: 26px;
@@ -10,6 +15,13 @@
 .scenario .parameters .title {
 	font-family: var(--font-pirata-one);
 	color: var(--gh-blue);
+}
+
+
+/* Sections */
+
+.scenario .section h2 {
+	font-family: var(--font-pirata-one);
 }
 
 .scenario .content {
